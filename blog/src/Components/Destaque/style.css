@@ -1,0 +1,19 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Destaque-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img img{
+    width: 40vw; 
+    overflow: hidden;
+}
+
+.paragrafo{
+    max-width: 35vw;
+}

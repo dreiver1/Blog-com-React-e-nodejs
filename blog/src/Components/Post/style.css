@@ -1,0 +1,16 @@
+.Publicacoes-conteneiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.Publicacoes-container{
+    margin: 5% 0%;
+}
+
+.Publicacoes-paragrafo{
+    max-width: 30vw;
+}
+
+img{
+    width: 35vw;
+}

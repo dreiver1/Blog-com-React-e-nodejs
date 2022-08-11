@@ -1,0 +1,10 @@
+.Home-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Publicacoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
