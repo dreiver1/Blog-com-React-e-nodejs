@@ -8,9 +8,11 @@
 }
 
 .Publicacoes-paragrafo{
-    max-width: 30vw;
+    color: #3e3932;
+    width: 30rem;
 }
 
 img{
-    width: 35vw;
+    width: 45rem;
+    border-radius: 0px 5px 5px 5px;
 }

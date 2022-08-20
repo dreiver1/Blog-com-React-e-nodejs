@@ -1,0 +1,18 @@
+.Login-container{
+    color: white;
+    background-color: #2f2e30;
+    width: 50rem;
+    
+}
+
+.content{
+    background-color: #2f2e30;
+}
+
+.body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 5rem 0;
+    background-color: #2f2e30;
+}

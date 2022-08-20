@@ -1,0 +1,15 @@
+.Controlers{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.body{
+    margin: 1rem 0;
+    height: 10rem;
+}
+
+.input{
+    min-width: 30rem;
+}

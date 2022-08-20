@@ -1,6 +1,8 @@
 .Home-container{
+    margin-top: -2rem;
     display: flex;
     flex-direction: column;
+    background-color: #bebebe8f;
 }
 
 .Publicacoes{

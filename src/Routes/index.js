@@ -1,6 +1,8 @@
 import {Route, BrowserRouter, Routes} from 'react-router-dom';
 import Home from '../Pages/Home';
 import Post from '../Pages/Post';
+import Login from '../Pages/Login';
+import Controlers from '../Pages/Controlers';
 
 
 export default function aplication(){
@@ -10,7 +12,9 @@ export default function aplication(){
         <Routes>
             <Route path="/" element={Home()}>
             </Route>
-            <Route path="/post" element={Post()}></Route>
+            <Route path="/posts" element={Post()}></Route>
+            <Route path="/login" element={Login()}></Route>
+            <Route path="/controlers" element={Controlers()}></Route>
         </Routes>
         </BrowserRouter>
         </>
