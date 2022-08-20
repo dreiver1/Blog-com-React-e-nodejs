@@ -1,12 +1,14 @@
 import Routes  from './Routes';
 import './app.css'
 import Navbar from './Components/Navbar';
+import { Authprovider } from "./context/AuthContext"
+
 function App() {
   return (
-    <>
-    <Navbar />
-    <Routes/>
-    </>
+    <Authprovider>
+      <Navbar />
+      <Routes/>
+    </Authprovider>
   );
 }
 
