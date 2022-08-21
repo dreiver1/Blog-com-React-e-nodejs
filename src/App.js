@@ -1,14 +1,14 @@
-import Routes  from './Routes';
+
 import './app.css'
 import Navbar from './Components/Navbar';
-import { Authprovider } from "./context/AuthContext"
-
-function App() {
+import { AuthProvider } from "./context/AuthContext"
+import Routers from './Routes/index'
+function App( {children} ) {
   return (
-    <Authprovider>
+    <>
       <Navbar />
-      <Routes/>
-    </Authprovider>
+      <Routers/>
+    </>
   );
 }
 

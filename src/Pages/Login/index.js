@@ -1,9 +1,11 @@
-import  { useState, useContext } from "react"
-import  { AuthContext }  from '../../context/AuthContext';
+import  { useState } from "react"
+import  { useAuthContext }  from '../../context/AuthContext';
+
+
 
 import "./index.css"
 export default function Login(){
-    const {authenticated, login} = useContext(AuthContext);
+    const {authenticated, login} = useAuthContext();
     const imageLogin = "https://img.freepik.com/fotos-gratis/tela-de-digitalizacao-de-programador-em-seu-smartwatch-com-camera-do-smartphone_1098-18710.jpg"
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -28,7 +30,7 @@ export default function Login(){
                     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                     <label className="form-check-label" for="exampleCheck1">Check me out</label>
                 </div>
-                <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
+                <a href="http://localhost:3000/controlers"><button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button></a>
             </form>
             </div>
             <div className="image-login">
